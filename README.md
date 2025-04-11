@@ -6,12 +6,16 @@
 Разные сущности, которые приходят с апи - src/main/java/org/example/echobot/dto
 - VkCallbackRequst.java - первый уровень (то что приходит в самом начале)
 - VkCallbackObject.java - начало парсинга, тут получаем общую инфу и полезные объекты
+- VkEventType.java - определяю тип событий для дальнейшего ветвления
 - VkClientInfo.java - инфа о клиенте, котороая пришла из VkCallbackObject
 - VkMessage.java - то, что больше всего интересует (Текст сообщения и какой чатик)
 
 Как получили запрос, его данные обрабатываются в VkCallbackController.java и отправляются с помощью VkApiService.java
 
-Конфигурационный файлик для спринга src/main/resources/application.properties
+События логируются slf4j.Logger
+Отправка сообщений ретраятся
+Есть тесты для VkCallbackController 
+Конфигурационный файлик для спринга src/main/resources/application.yml
 В нем определена чувствительная информация и параметры забуска веб сервера
 
 #С какими трудностями столкнулся: 
