@@ -1,0 +1,8 @@
+server:
+    address: 0.0.0.0
+    port: 80
+vk:
+    token: ****
+    version: 5.199
+    url: https://api.vk.com/method/
+    code: ****

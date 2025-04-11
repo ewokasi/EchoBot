@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "vk",
+      "type": "org.example.echobot.config.VkConfig",
+      "sourceType": "org.example.echobot.config.VkConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
