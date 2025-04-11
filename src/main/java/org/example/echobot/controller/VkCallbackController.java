@@ -51,9 +51,6 @@ public class VkCallbackController {
 
                 case CONFIRMATION:
                     logger.info("received confirmation request");
-                    logger.info("request.getType()");
-                    logger.info(confirmationCode);
-
                     return confirmationCode; //По докам вк надо вернуть plaintext
 
 

@@ -6,7 +6,7 @@ import org.springframework.retry.annotation.EnableRetry;
 
 
 @SpringBootApplication
-//@EnableRetry
+@EnableRetry
 public class EchoBotApplication {
     public static void main(String[] args) {
         SpringApplication.run(EchoBotApplication.class, args);

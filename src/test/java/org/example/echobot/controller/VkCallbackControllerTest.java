@@ -32,8 +32,8 @@ public class VkCallbackControllerTest {
     public void testHandleCallback_Confirmation() throws Exception {
         // Мокируем возвращаемое значение для внешнего API (RestTemplate)
         mockMvc.perform(post("/api/vk/callback")
-                        .contentType("application/json")
-                        .content("{\"type\": \"confirmation\", \"object\": {}}"))
+                .contentType("application/json")
+                .content("{\"type\": \"confirmation\", \"object\": {}}"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(confirmationCode)); // Проверяем, что вернулся код подтверждения
     }

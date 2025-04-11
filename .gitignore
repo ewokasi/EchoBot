@@ -4,7 +4,7 @@
 application.yml
 # Log file
 *.log
-
+target/classes/META-INF
 # BlueJ files
 *.ctxt
 
