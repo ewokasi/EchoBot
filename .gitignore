@@ -4,7 +4,8 @@
 application.yml
 # Log file
 *.log
-target/classes/META-INF
+
+spring-configuration-metadata.json
 # BlueJ files
 *.ctxt
 
